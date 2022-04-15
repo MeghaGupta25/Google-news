@@ -1,0 +1,29 @@
+package com.google.Googlenews.models;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+public class Root {
+    private String status;
+    private Integer totalResults;
+    private List<Article> articles = new ArrayList<Article>();
+    public String getStatus() {
+        return status;
+    }
+    public void setStatus(String status) {
+        this.status = status;
+    }
+    public Integer getTotalResults() {
+        return totalResults;
+    }
+    public void setTotalResults(Integer totalResults) {
+        this.totalResults = totalResults;
+    }
+    public List<Article> getArticles() {
+        return articles;
+    }
+    public void setArticles(List<Article> articles) {
+        this.articles = articles;
+    }
+}
